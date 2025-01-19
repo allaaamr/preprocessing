@@ -5,6 +5,8 @@ from typing import Union
 from auxiliary.nifti.io import read_nifti, write_nifti
 
 
+
+
 class Defacer(ABC):
     """
     Base class for defacing medical images using brain masks.
